@@ -5,7 +5,7 @@ client.on('ready', () => {
     console.log("Connected as " + client.user.tag)
 })
 
-bot_secret_token= "NjkwNzU1OTMxNTc4ODI2ODIz.XnWCuQ.w_h4ONQj-tz6PMBhee5sgM9ye7g"
+bot_secret_token= "censored_for_github"
 
 client.login(bot_secret_token)
 
@@ -15,7 +15,7 @@ client.on('ready', () => {
     generalChannel.send("there's 36 letters in the alphabet, mick murray")
 })
 
-client.login("NjkwNzU1OTMxNTc4ODI2ODIz.XnWCuQ.w_h4ONQj-tz6PMBhee5sgM9ye7g")
+client.login("censored_for_github")
 
 //make reply to a messsage
 client.on('message', (receivedMessage) => {
@@ -32,7 +32,7 @@ client.on('message', (receivedMessage) => {
     if (receivedMessage.content == ("!stop") )
         return client.logout()
         
-client.login("NjkwNzU1OTMxNTc4ODI2ODIz.XnWCuQ.w_h4ONQj-tz6PMBhee5sgM9ye7g")
+client.login("censored_for_github")
 })
 
 //checking if the bot was tagged (might not be useful)
@@ -50,7 +50,7 @@ client.on('message'), (receivedMessage) => {
     }
 };
 
-client.login("NjkwNzU1OTMxNTc4ODI2ODIz.XnWCuQ.w_h4ONQj-tz6PMBhee5sgM9ye7g")
+client.login("censored_for_github")
 
 //commands for the bot
 client.on('message', (receivedMessage) => {
@@ -101,4 +101,4 @@ function multiplyCommand(arguments, receivedMessage) {
     receivedMessage.channel.send("The product of " + arguments + " multiplied together is: " + product.toString())
 }
 
-client.login("NjkwNzU1OTMxNTc4ODI2ODIz.XnWCuQ.w_h4ONQj-tz6PMBhee5sgM9ye7g") 
+client.login("censored_for_github") 
